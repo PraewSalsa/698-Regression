@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the trained regression model
-with open("model-reg-ุ67130701901.pkl", "rb") as file:
+with open("model-reg-ุ67130701914.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("Sales Prediction App")
